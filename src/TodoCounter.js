@@ -6,7 +6,7 @@ function TodoCounter(props) {
 
   return (
     
-      <h1 className='TodoCounter'>Has Completado <span>{props.completed}</span> de <span>{props.Total} </span> </h1>
+      <h1 className='TodoCounter'>Has Completado <span>{props.completed}</span> de <span>{props.total} </span> </h1>
     
   )
 }
